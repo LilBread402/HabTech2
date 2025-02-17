@@ -42,8 +42,13 @@ COMPATIBILITY
 - Neptune Camera - provides camera functionality for camera mast part
 - Waterfall - Waterfall FX are provided for lights and RCS thrusters
 - Limited support for TAC LS
-- Community Category Kit - adapted from configs by Lennon
+- Community Category Kit
 
+CREDITS
+Artwork & parts by Benjee10
+SSF hangar & truss parts by LilBread402
+InventoryUpgrades plugin by ValiZockt
+CCK configs by Lennon & Benjee10
 
 CHANGELOG
 
@@ -52,18 +57,55 @@ CHANGELOG
 	- Added 'SCRAM' ACRV command module part
 	- Added 'SCRAM' parachute part
 	- Added SSF Hangar part
+	- Added 3.75m space station parts (short & long tab modules, logistics module, node module, conical 2.5m->3.75m hab module)
+	- Added 5m space station parts (short & long tab modules, logistics module, node module, conical 3.75m->5m hab module)
+	- Added additional generic 2.5m space station parts (node & hab)
+	- Added 1.25m compact & inline airlock parts
+	- Added standalone ISS radiator part
+	- Added standalone ISS SAW radiator part
+	- Added half-length ISS solar array
+	- Added straight conical PMA (1.25m to 0.9375m) parts
+	- Added heavy-duty RCS parts (10 variants)
 
 	IMPROVEMENTS
-	- iROSA panels now added via InvetoryUpgrade system; iROSA part can be dragged into inventory upgrade slot on SAW parts to add it to that part. Standalone SAW has a single slot, P/S3 & P/S6 have double slot
+	- Added InventoryUpgrades plugin by ValiZockt
+	- iROSA panels are now added via InventoryUpgrade system; iROSA part can be dragged into inventory upgrade slot on SAW parts to add it to that part. Standalone SAW has a single slot, P/S3 & P/S6 have double slot
 	- Added KAL controller to relevant parts
 	- Rebalanced SGANT antenna part masses
+	- Adjusted part naming for consistency
+	- Rebalanced radiators
+	- Updated hatch/endcap art for 1.25m and 0.9375m nodes (WIP)
+	- Updated airlock design with animated thermal cover
+	- Added switchable trunnion pins for 2.5m parts
+	- Updated legacy textures (WIP)
+	- Added new reflective variant to pressurised modules (WIP)
+	- Added animated window covers for various parts
+	- Added animated airlock to Kibo part
+
+	UPGRADE RACKS (heavily WIP)
+	Certain parts can now be configured using inventory upgrades:
+
+		UTILITY RACKS can be equipped with utility rack parts to add additional functionality to the part. 
+		Currently these include:
+			- Command point
+			- Experience management
+			- SAS
+			- Data transmitter
+			- Robotics controller (for EasyRobotics)
+			- Probe control point
+			- KerbNet access
+		SCIENCE RACKS can be equipped with science rack parts to add additional science experiments to the part. (Currently very WIP)
+
+		SAMPLE CONTAINERS are required by certain experiments. (Currently very WIP)
 
 	FIXES
 	- Fixed issue with some truss connector ports lacking a dockingNode transform
-	- Added InventoryUpgrades plugin by ValiZockt
+
+	COMPATIBILITY
+	- Added SystemHeat patch (WIP)
 
 	CRAFT FILES
-	- Updated craft files
+	- Updated craft files (WIP)
 
 1.0.0 - FINAL MAJOR UPDATE
 	REVAMPED PARTS
@@ -235,7 +277,6 @@ CHANGELOG
 	- Added standalone handrail (x1, x2 & x3)
 	- Added Common Berthing Mechanism
 
-LICENSE & CREDITS
-HabTech2 artwork is copyright Benedict Jewer 2019-2023. All Rights Reserved. 
-InvetoryUpgrades plugin by ValiZockt
+LICENSE
+HabTech2 artwork is copyright Benedict Jewer 2019-2024. All Rights Reserved. 
 Dependencies are bundled under their respective licenses. 
