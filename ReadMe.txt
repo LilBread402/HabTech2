@@ -1,4 +1,4 @@
-HABTECH 2 1.1.0 DEV VERSION
+HABTECH 2 1.2.0 DEV VERSION
 A mod for Kerbal Space Program [Breaking Ground Expansion] 1.12.x by Benjee10. 
 
 Featuring parts designed to replicate the US Orbital Section (USOS) of the International Space Station, including:
@@ -52,7 +52,15 @@ CCK configs by Lennon & Benjee10
 
 CHANGELOG
 
-1.1.0 - DEV VERSION
+1.2.0 - DEV VERSION
+	NEW PARTS
+	- Added 'SCRAM' ACRV command module part
+	- Added 'SCRAM' parachute part
+	- Added 3.75m space station parts (short & long tab modules, logistics module, node module, conical 2.5m->3.75m hab module)
+	- Added 5m space station parts (short & long tab modules, logistics module, node module, conical 3.75m->5m hab module)
+	- Added additional generic 2.5m space station parts (node & hab)
+
+1.1.0 - PUBLIC RELEASE
 	NEW PARTS
 	- Added 'SCRAM' ACRV command module part
 	- Added 'SCRAM' parachute part
@@ -85,6 +93,7 @@ CHANGELOG
 	UPGRADE RACKS (heavily WIP)
 	Certain parts can now be configured using inventory upgrades:
 
+
 		UTILITY RACKS can be equipped with utility rack parts to add additional functionality to the part. 
 		Currently these include:
 			- Command point
@@ -94,6 +103,7 @@ CHANGELOG
 			- Robotics controller (for EasyRobotics)
 			- Probe control point
 			- KerbNet access
+
 		SCIENCE RACKS can be equipped with science rack parts to add additional science experiments to the part. (Currently very WIP)
 
 		SAMPLE CONTAINERS are required by certain experiments. (Currently very WIP)
@@ -103,9 +113,6 @@ CHANGELOG
 
 	COMPATIBILITY
 	- Added SystemHeat patch (WIP)
-
-	CRAFT FILES
-	- Updated craft files (WIP)
 
 1.0.0 - FINAL MAJOR UPDATE
 	REVAMPED PARTS
