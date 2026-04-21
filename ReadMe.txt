@@ -59,16 +59,11 @@ CHANGELOG
 	- Added 3.75m space station parts (short & long tab modules, logistics module, node module, conical 2.5m->3.75m hab module)
 	- Added 5m space station parts (short & long tab modules, logistics module, node module, conical 3.75m->5m hab module)
 	- Added additional generic 2.5m space station parts (node & hab)
+	- Added 1.25m compact & inline airlock parts
 
 1.1.0 - PUBLIC RELEASE
 	NEW PARTS
-	- Added 'SCRAM' ACRV command module part
-	- Added 'SCRAM' parachute part
 	- Added SSF Hangar part
-	- Added 3.75m space station parts (short & long tab modules, logistics module, node module, conical 2.5m->3.75m hab module)
-	- Added 5m space station parts (short & long tab modules, logistics module, node module, conical 3.75m->5m hab module)
-	- Added additional generic 2.5m space station parts (node & hab)
-	- Added 1.25m compact & inline airlock parts
 	- Added standalone ISS radiator part
 	- Added standalone ISS SAW radiator part
 	- Added half-length ISS solar array
